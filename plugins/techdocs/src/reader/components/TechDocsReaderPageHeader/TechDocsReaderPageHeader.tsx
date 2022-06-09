@@ -111,6 +111,7 @@ export const TechDocsReaderPageHeader = (
             color="inherit"
             entityRef={entityRef}
             defaultKind="Component"
+            title={entityMetadata?.metadata?.title || entityMetadata?.metadata?.name}
           />
         }
       />
